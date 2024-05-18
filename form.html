@@ -170,5 +170,29 @@
         </a>
     </div>
 </footer>
+
+<div class="modal">
+    <h2 class="modal-title">Добавить в корзину</h2>
+    <form class="modal-form" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset class="modal__form-group">
+            <legend class="modal-legend">Выберите размер:</legend>
+            <div class="modal__inner">
+                <div class="modal__size-box">
+                    <input type="radio" name="size" value="S" id="s" checked>
+                    <label class="modal-label" for="s"></label>
+                </div>
+                <div class="modal__size-box">
+                    <input type="radio" name="size" value="M" id="m">
+                    <label class="modal-label" for="m"></label>
+                </div>
+                <div class="modal__size-box">
+                    <input type="radio" name="size" value="L" id="l">
+                    <label class="modal-label" for="l"></label>
+                </div>
+            </div>
+        </fieldset>
+        <button class="modal__submit button" type="button">Добавить</button>
+    </form>
+</div>
 </body>
 </html>
